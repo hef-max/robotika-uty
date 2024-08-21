@@ -1,0 +1,29 @@
+/* src/components/Footer.css */
+.footer-section {
+    background-color: #0d0c17; /* Warna latar belakang footer yang gelap */
+    padding: 20px; /* Ruang di sekitar konten footer */
+    text-align: center; /* Teks dan elemen lainnya rata tengah */
+    color: #ffffff; /* Warna teks putih */
+    border-top: 3px solid #f15927; /* Garis atas dengan warna sesuai tema */
+}
+
+.footer-section p {
+    margin: 0; /* Menghilangkan margin default */
+    font-size: 16px; /* Ukuran font untuk teks hak cipta */
+}
+
+.social-links {
+    margin-top: 10px; /* Ruang di atas tautan sosial */
+}
+
+.social-links a {
+    color: #f15927; /* Warna teks tautan sosial sesuai tema */
+    margin: 0 10px; /* Ruang antara tautan */
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    font-size: 18px; /* Ukuran font tautan sosial */
+    transition: color 0.3s ease; /* Animasi perubahan warna */
+}
+
+.social-links a:hover {
+    color: #f15927; /* Warna tautan saat di-hover */
+}

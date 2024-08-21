@@ -1,0 +1,46 @@
+/* src/components/News.css */
+.news-section {
+    padding: 50px 20px;
+    background-color: #0d0c17;
+    text-align: center;
+}
+
+.news-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #f9f9f9;
+}
+
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #f15927; /* Sesuaikan warna dengan tema */
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #333;
+}
+
+.news-item p {
+    font-size: 1rem;
+    margin: 0 20px 20px 20px;
+    color: #666;
+}

@@ -1,0 +1,28 @@
+.about-section {
+    padding: 60px 20px;
+    background-color: #0d0c17;
+    text-align: center;
+}
+
+.about-content {
+    text-align: center; /* Center align the content */
+}
+
+.about-section h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-section p {
+    font-size: 18px; /* Slightly larger font size for better readability */
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-section p:last-child {
+    margin-bottom: 0;
+}
