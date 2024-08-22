@@ -1,4 +1,3 @@
-// src/components/News.tsx
 import React from 'react';
 import './News.css';
 
@@ -8,14 +7,15 @@ const News: React.FC = () => {
             <h2>Berita & Acara</h2>
             <div className="news-grid">
                 <div className="news-item">
-                    <img src="/images/finalis-iot.jpg" alt="News 1" />
+                    <img src="/images/finalis-iot.jpg" alt="News 1" className="news-image" />
                     <h3>Robotika UTY masuk finalis technocorner UGM</h3>
-                    <p>Robotika UTY masuk finalis technocorner UGM, dengan membawa tim After Code, Robotika UTY memasukin 5 finalis besar kompetisi bergensi tersebut.</p>
+                    <p>Robotika UTY masuk finalis technocorner UGM, dengan membawa tim After Code, Robotika UTY memasukin 5 finalis besar kompetisi bergengsi tersebut.</p>
                 </div>
                 <div className="news-item">
-                    <img src="/assets/news2.jpg" alt="News 2" />
-                    <h3>Judul Berita 2</h3>
-                    <p>Deskripsi singkat tentang berita atau acara yang terkait. Bisa mencakup informasi mengenai kegiatan terbaru atau pengumuman penting.</p>
+                    <img src="/images/IMG-20240706-WA0011.jpg" alt="News 2" className="news-image" />
+                    <h3>Dies Natalis Robotika UTY ke-13!</h3>
+                    <p>Pada tanggal 29 Juni 2024, kami merayakan momen istimewa ini dengan kegiatan pengabdian ke Panti Asuhan LKSA Al Haq Madania,
+                         Yogyakarta. Kami berbagi keceriaan dan kebahagiaan bersama adik-adik di sana. Terima kasih atas dukungan dan partisipasi semua pihak. Mari terus berkarya dan berbagi</p>
                 </div>
                 {/* Tambahkan lebih banyak berita atau acara sesuai kebutuhan */}
             </div>

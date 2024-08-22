@@ -1,46 +1,49 @@
-/* src/components/News.css */
 .news-section {
-    padding: 50px 20px;
+    padding: 60px 20px;
     background-color: #0d0c17;
     text-align: center;
 }
 
 .news-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #f9f9f9;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
 }
 
 .news-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
 .news-item {
     background-color: #ffffff;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: left;
 }
 
-.news-item img {
-    width: 100%;
-    height: auto;
-    border-bottom: 3px solid #f15927; /* Sesuaikan warna dengan tema */
-}
-
 .news-item h3 {
-    font-size: 1.5rem;
-    margin: 20px;
-    color: #333;
+    font-size: 24px;
+    color: #f15927;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
 }
 
 .news-item p {
-    font-size: 1rem;
-    margin: 0 20px 20px 20px;
-    color: #666;
+    font-size: 16px;
+    color: #1a1a1a;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Uniform Image Styling */
+.news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }

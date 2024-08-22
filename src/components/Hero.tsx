@@ -8,7 +8,9 @@ const Hero: React.FC = () => {
             <div className="hero-content">
                 <h1>Explore the Power of Robotics UTY</h1>
                 <p>Innovate, Create, and Transform the Future with Robotics at Universitas Teknologi Yogyakarta.</p>
-                <button className="cta-button">Explore More</button>
+                <a href="#about">
+                    <button className="cta-button">Explore More</button>
+                </a>
             </div>
             <div className="hero-image">
                 <img src="/images/images2.png" alt="Robot Illustration" />

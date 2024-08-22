@@ -5,7 +5,7 @@
 }
 
 .about-content {
-    text-align: center; /* Center align the content */
+    text-align: center;
 }
 
 .about-section h2 {
@@ -16,7 +16,7 @@
 }
 
 .about-section p {
-    font-size: 18px; /* Slightly larger font size for better readability */
+    font-size: 18px;
     color: #ffffff;
     line-height: 1.8;
     margin-bottom: 20px;
@@ -25,4 +25,16 @@
 
 .about-section p:last-child {
     margin-bottom: 0;
+}
+
+/* Video Styling */
+.video-container {
+    margin-top: 100px;
+}
+
+.profile-video {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
