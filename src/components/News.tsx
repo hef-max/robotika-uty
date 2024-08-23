@@ -7,6 +7,11 @@ const News: React.FC = () => {
             <h2>Berita & Acara</h2>
             <div className="news-grid">
                 <div className="news-item">
+                    <img src="/images/images2.jpg" alt="News 2" className="news-image" />
+                    <h3>Robotika Mengikuti Lomba KRTI 2024</h3>
+                    <p>Pada tanggal 13 Agustus 2024, kami mengikuti Kontes Robot Terbang Indonesia (KRTI), dengan kategori yang diikuti Racing Plane.</p>
+                </div>
+                <div className="news-item">
                     <img src="/images/finalis-iot.jpg" alt="News 1" className="news-image" />
                     <h3>Robotika UTY masuk finalis technocorner UGM</h3>
                     <p>Robotika UTY masuk finalis technocorner UGM, dengan membawa tim After Code, Robotika UTY memasukin 5 finalis besar kompetisi bergengsi tersebut.</p>
