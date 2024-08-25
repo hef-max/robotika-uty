@@ -4,7 +4,7 @@ import './About.css';
 const About: React.FC = () => {
     return (
         <section id="about" className="about-section">
-            <h2>About Us</h2>
+            <h2>Tentang Kami</h2>
             <div className='about-content'>
                 <p>
                     Club Robotika UTY (Universitas Teknologi Yogyakarta) yang kemudian disebut Robotika,
