@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     return (
         <section className="hero-section">
             <div className="hero-content">
-                <h1>Explore the Power of Robotics UTY</h1>
+                <h1>Robotika UTY 2024</h1>
                 <p>Innovate, Create, and Transform the Future with Robotics at Universitas Teknologi Yogyakarta.</p>
                 <a href="#about">
                     <button className="cta-button">Explore More</button>
