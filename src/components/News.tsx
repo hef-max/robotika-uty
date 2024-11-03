@@ -11,7 +11,6 @@ const News: React.FC = () => {
                     <h3>Robotika UTY Membuka Kembali Pendaftaran Anggota Baru Tahun </h3>
                     <p>Halo, mahasiswa UTY! 🎉 Organisasi Robotika UTY kembali membuka pendaftaran anggota baru untuk tahun akademik 2023/2024!🚀<br/>
                     📅 Pendaftaran dibuka sampai tanggal: 16 November 2024<br/>📍 Tempat: Universitas Teknologi Yogyakarta Kampus 1<br/>
-                    💻 Link Pendaftaran: [masukkan link pendaftaran]<br/>
                     Jangan lewatkan kesempatan ini, ayo gabung dan kembangkan potensi teknologi masa depan bersama kami!</p>
                 </div>
                 <div className="news-item">
