@@ -1,38 +1,91 @@
 /* src/components/Hero.css */
+
+/* Gaya Umum untuk Hero Section */
 .hero-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-color: #0d0c17; /* Dark background */
+    background-color: #0d0c17; /* Background warna gelap */
     color: #fff;
+    flex-wrap: wrap; /* Agar elemen bisa membungkus di layar kecil */
 }
 
 .hero-content {
     max-width: 600px;
+    margin-bottom: 20px; /* Memberi jarak di bawah saat konten dan gambar berbaris vertikal */
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 2.5rem; /* Menggunakan rem agar lebih responsif */
     line-height: 1.2;
+    margin: 0;
 }
 
 .hero-content p {
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px diubah ke rem */
     margin: 20px 0;
 }
 
 .cta-button {
     padding: 15px 30px;
-    background-color: #f15927; /* Button color */
+    background-color: #f15927; /* Warna tombol */
     border: none;
     border-radius: 8px;
     color: #fff;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d14d20; /* Warna saat hover */
 }
 
 .hero-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px; /* Menambahkan border radius untuk gambar */
+}
+
+/* Media Queries untuk perangkat dengan lebar maksimum 768px (Tablet) */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column; /* Elemen berbaris vertikal pada layar lebih kecil */
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem; /* Mengurangi ukuran font pada layar kecil */
+    }
+
+    .hero-content p {
+        font-size: 1rem; /* Mengurangi ukuran font pada layar kecil */
+    }
+
+    .cta-button {
+        font-size: 0.9rem; /* Ukuran tombol lebih kecil */
+        padding: 12px 24px;
+        margin: 10px 0; /* Memberi jarak antara tombol di layar kecil */
+    }
+}
+
+/* Media Queries untuk perangkat dengan lebar maksimum 480px (Smartphone) */
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 30px 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.75rem; /* Mengurangi ukuran font pada layar sangat kecil */
+    }
+
+    .cta-button {
+        width: 100%; /* Tombol melebar penuh pada layar kecil */
+        font-size: 0.875rem;
+        padding: 10px;
+        margin: 10px 0;
+    }
 }

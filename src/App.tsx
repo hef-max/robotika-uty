@@ -1,3 +1,4 @@
+import Header from './components/header';
 import Hero from './components/Hero';
 import About from './components/About';
 import News from './components/News';
@@ -7,6 +8,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div className="App">
+      <Header />
       <Hero />
       <About />
       <Projects />

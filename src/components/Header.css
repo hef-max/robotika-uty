@@ -1,0 +1,33 @@
+/* Header.css */
+.header {
+    background-color: #0d0c17; /* Warna latar belakang gelap, sama dengan footer */
+    padding: 20px; /* Sama dengan padding footer */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff; /* Warna teks putih, sama dengan footer */
+    border-bottom: 3px solid #f15927; /* Garis bawah dengan warna tema */
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px; /* Sesuaikan ukuran font untuk judul header */
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header nav ul li a {
+    color: #f15927; /* Warna tautan sesuai tema */
+    text-decoration: none;
+    font-size: 18px; /* Ukuran font tautan */
+    transition: color 0.3s ease; /* Animasi perubahan warna saat hover */
+  }
+  
+  .header nav ul li a:hover {
+    color: #ffffff; /* Warna putih saat di-hover */
+  }
+  

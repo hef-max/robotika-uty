@@ -6,6 +6,14 @@ const News: React.FC = () => {
         <section className="news-section">
             <h2>Berita & Acara</h2>
             <div className="news-grid">
+            <div className="news-item">
+                    <img src="/images/IMG-20240706-WA0011.jpg" alt="News 2" className="news-image" />
+                    <h3>Robotika UTY Membuka Kembali Pendaftaran Anggota Baru Tahun </h3>
+                    <p>Halo, mahasiswa UTY! 🎉 Organisasi Robotika UTY kembali membuka pendaftaran anggota baru untuk tahun akademik 2023/2024!🚀<br/>
+                    📅 Pendaftaran dibuka sampai tanggal: 16 November 2024<br/>📍 Tempat: Universitas Teknologi Yogyakarta Kampus 1<br/>
+                    💻 Link Pendaftaran: [masukkan link pendaftaran]<br/>
+                    Jangan lewatkan kesempatan ini, ayo gabung dan kembangkan potensi teknologi masa depan bersama kami!</p>
+                </div>
                 <div className="news-item">
                     <img src="/images/images2.jpg" alt="News 2" className="news-image" />
                     <h3>Robotika Mengikuti Lomba KRTI 2024</h3>
